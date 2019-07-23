@@ -12,8 +12,17 @@ export ZSH="/Users/kjohnson/.oh-my-zsh"
 ZSH_THEME="powerlevel10k/powerlevel10k"
 # ZSH_THEME=candy
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs vi_mode root_indicator)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(aws background_jobs ram swap load battery time date)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(time date dir vcs vi_mode root_indicator)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(aws background_jobs ram swap load battery )
+
+# Fonts
+POWERLEVEL9K_MODE='nerdfont-complete'
+
+# Colors
+POWERLEVEL9K_TIME_FOREGROUND='235'
+POWERLEVEL9K_TIME_BACKGROUND='231'
+POWERLEVEL9K_DATE_FOREGROUND='235'
+POWERLEVEL9K_DATE_BACKGROUND='231'
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
